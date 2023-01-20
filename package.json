@@ -1,0 +1,23 @@
+{
+  "name": "202301-w1chwe-carlos-hernandez-thais-jacob",
+  "version": "1.0.0",
+  "description": "Weekend chalenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaixjacob/202301-w1chwe-carlos-hernandez-thais-jacob.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thaixjacob/202301-w1chwe-carlos-hernandez-thais-jacob/issues"
+  },
+  "homepage": "https://github.com/thaixjacob/202301-w1chwe-carlos-hernandez-thais-jacob#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}
