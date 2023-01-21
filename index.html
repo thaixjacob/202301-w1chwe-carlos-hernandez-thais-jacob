@@ -1,15 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travellian</title>
+    <link rel="shortcut icon" href="./icons/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Travellian</title>
-</head>
+  <body>
+    <header class="main-header">
+      <div class="main-header__logo">
+        <a><img src="./logo/logo.svg " alt="brand-logo" /></a>
+      </div>
+      <div class="main-header__menu">
+        <nav class="main-header__menu-pages">
+          <a href="">Home</a>
+          <a href="">Explore</a>
+          <a href="">Travel</a>
+          <a href="">Blog</a>
+          <a href="">Pricing</a>
+        </nav>
+        <nav class="main-header__menu-submit">
+          <a href="">Login</a>
+          <button>Sign up</button>
+        </nav>
+        <div class="main-header__menu-hamburger">
+          <img src="./icons/menu-hamburger.svg" alt="detachable-menu" />
+        </div>
+      </div>
+    </header>
 
-<body>
-  <h1>Hola Mundo</h1>
-</body>
-
+    <main class="main-page">
+      <section class="main-page__tittle">
+        <h1>Start your unforgettable journey with us</h1>
+        <h2>The best travel for your journey begins now</h2>
+      </section>
+      <form class="main-page__form">
+        <label for="destination">DESTINATION</label>
+        <input
+          type="text"
+          id="destination"
+          placeholder="Insert your destination"
+        />
+        <label for="person">PERSON</label>
+        <input type="number" id="person" placeholder="Number of persons" />
+        <label for="checkin">CHECK IN</label>
+        <input type="date" id="checkin" placeholder="Date of departure" />
+        <label for="checkout">CHECK OUT</label>
+        <input type="text" id="checkout" placeholder="Date of return" />
+        <button type="submit">
+          Book Now <img src="./icons/arrow-right.svg" alt="arrow-right" />
+        </button>
+      </form>
+    </main>
+  </body>
 </html>
