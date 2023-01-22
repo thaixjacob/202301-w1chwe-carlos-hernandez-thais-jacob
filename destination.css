@@ -1,0 +1,155 @@
+.destination__header-title-line h1 {
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  color: #172432;
+  line-height: 53.32px;
+}
+
+.destination__header-title h2 {
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  color: #767e86;
+  margin-top: 32px;
+}
+
+.destination_header-arrows {
+  display: none;
+}
+
+.destination__header-title__underline {
+  border: 3px solid #ff7757;
+  width: 227px;
+  margin-top: 20px;
+}
+
+.destination__header-title {
+  margin: 80px 16px 100px 16px;
+}
+
+.destination__content-container {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.destination__content {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.destination__content-container-text {
+  width: 100%;
+  padding-left: 20px;
+  position: absolute;
+  text-align: start;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  gap: 16px;
+}
+
+.destination__content img {
+  width: 288px;
+  height: 320px;
+  border-radius: 16px;
+}
+
+.destination__content-container__desktop {
+  display: none;
+}
+
+.destination__content-container-location img {
+  width: 16.88px;
+  height: 24px;
+}
+
+.destination__content-container-text h5 {
+  font-size: 24px;
+  line-height: 31.99px;
+  color: white;
+}
+
+.destination__content-container-text p {
+  font-size: 18px;
+  line-height: 21.33px;
+
+  color: white;
+}
+
+.destination__content-container-location {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.destination_header-arrows-down {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-bottom: 160px;
+  gap: 40px;
+}
+
+@media (min-width: 1440px) {
+  .destination_header-arrows {
+    display: block;
+  }
+
+  .destination_header-arrows-down {
+    display: none;
+  }
+
+  .destination__header-title-line h1 {
+    font-size: 64px;
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    color: #172432;
+    line-height: 85.31px;
+  }
+
+  .destination__header-title h2 {
+    font-size: 24px;
+    font-family: "Rubik", sans-serif;
+    font-weight: normal;
+    color: #767e86;
+    line-height: 28.44px;
+    margin-top: 32px;
+  }
+
+  .destination__header-title__underline {
+    width: 365px;
+  }
+
+  .destination__header-title {
+    padding-left: 32px;
+    padding-left: 32px;
+  }
+
+  .destination__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .destination_header-arrows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 32px;
+    gap: 40px;
+  }
+
+  .destination__content-container__desktop {
+    display: block;
+  }
+
+  .destination__content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+  }
+}
