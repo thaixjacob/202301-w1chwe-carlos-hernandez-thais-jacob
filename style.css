@@ -99,8 +99,12 @@
 }
 
 .main-page__form-input-insert {
-  padding: 15px;
+  padding: 8px;
   border-radius: 16px;
+}
+
+.main-page__form-input-insert:active {
+  text-decoration: none;
 }
 
 .main-page__form {
