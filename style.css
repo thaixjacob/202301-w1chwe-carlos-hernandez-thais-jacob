@@ -87,6 +87,7 @@
   display: flex;
   gap: 36px;
   align-items: center;
+  
 }
 
 .main-page__form-input {
@@ -118,7 +119,7 @@
 }
 
 .main-page__form-input__underline {
-  width: 85%;
+  width: 100%;
   align-items: center;
   margin: auto;
   border-top: 1px solid black;
@@ -133,6 +134,7 @@
 .main-page__form-container {
   display: flex;
   flex-direction: column;
+  margin: 20px 20px 0 20px ;
 }
 
 .main-page__form ::placeholder {
@@ -153,4 +155,5 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 50px;
 }
