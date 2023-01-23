@@ -1,7 +1,11 @@
 .main-background-img {
-  background-image: url(./images/hero-image.jpeg);
+  /*como é background e nao tem sentido para o usuário cego, o colocamos como background e nao como imagem em html*/
+  /*background-image: url(./images/hero-image.jpeg);*/
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/hero-image.jpeg);
+  width: 100%;
   background-size: cover;
-  width: 100vw;
+  background-position: center;
 }
 
 .main-page__tittle h2 {
@@ -211,9 +215,7 @@
     height: 228.33px;
     padding: 0 20px 0 20px;
     display: flex;
-    flex-wrap: wrap;
     width: 160px;
-    flex-direction: row;
   }
 
   .main-page__form-input__button:hover {
