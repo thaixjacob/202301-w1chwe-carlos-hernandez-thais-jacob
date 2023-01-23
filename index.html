@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travellian</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="shortcut icon" href="./icons/favicon.png" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body class="main-background-img">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travellian</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="destination.css" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="shortcut icon" href="./icons/favicon.png" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="main-background-img">
     <header class="main-header">
       <div class="main-header__logo">
-        <a><img src="./logo/logo.svg " alt="brand-logo" /></a>
+        <img src="./logo/logo.svg " alt="brand-logo" />
       </div>
       <div class="main-header__menu">
         <nav class="main-header__menu-pages">
@@ -43,7 +43,7 @@
 
     <main class="main-page">
       <section class="main-page__tittle">
-        <h2>Start your unforgettable journey with us</h2>
+        <h2>Start your unforgettable journey with us.</h2>
         <h3>The best travel for your journey begins now</h3>
       </section>
 
@@ -51,78 +51,110 @@
         <div class="main-page__form-input">
           <div class="main-page__form-contain">
             <div class="main-page__form-container">
-              <label class="main-page__form-input-insert" for="destination"
-                >DESTINATION</label
-              >
-              <input
-                class="main-page__form-input-insert"
-                type="text"
-                id="destination"
-                placeholder="Insert your destination"
-              />
+              <label class="main-page__form-input-insert" for="destination">DESTINATION</label>
+              <input class="main-page__form-input-insert" type="text" id="destination"
+                placeholder="Insert your destination" />
 
               <hr class="main-page__form-input__underline" />
             </div>
 
             <div class="main-page__form-container">
-              <label class="main-page__form-input-insert" for="person"
-                >PERSON</label
-              >
-              <input
-                class="main-page__form-input-insert"
-                type="number"
-                id="person"
-                placeholder="1"
-              />
+              <label class="main-page__form-input-insert" for="person">PERSON</label>
+              <input class="main-page__form-input-insert" type="number" id="person" placeholder="1" />
 
               <hr class="main-page__form-input__underline" />
             </div>
 
             <div class="main-page__form-container">
-              <label class="main-page__form-input-insert" for="checkin"
-                >CHECK IN</label
-              >
-              <input
-                class="main-page__form-input-insert"
-                type="date"
-                id="checkin"
-                autocomplete="bday"
-                placeholder="Date of departure"
-              />
+              <label class="main-page__form-input-insert" for="checkin">CHECK IN</label>
+              <input class="main-page__form-input-insert" type="date" id="checkin" autocomplete="bday" />
 
               <hr class="main-page__form-input__underline" />
             </div>
 
             <div class="main-page__form-container">
-              <label class="main-page__form-input-insert" for="checkout"
-                >CHECK OUT</label
-              >
-              <input
-                class="main-page__form-input-insert"
-                type="date"
-                id="checkout"
-                placeholder="Date of return"
-              />
+              <label class="main-page__form-input-insert" for="checkout">CHECK OUT</label>
+              <input class="main-page__form-input-insert" type="date" id="checkout" />
 
               <hr class="main-page__form-input__underline" />
             </div>
           </div>
 
           <button type="submit" class="main-page__form-input__button">
-            Book Now 
-            <img  class="icon__arrow-right" src="./icons/arrow-right.svg" alt="arrow-right" />
+            Book Now
+            <img class="icon__arrow-right" src="./icons/arrow-right.svg" alt="arrow-right" />
           </button>
         </div>
       </form>
     </main>
+  </div>
 
-    <section class="destination">
-      <header class="destination-header">
-        <section class="destination_header-title">
-          <h1 class="destination_header-title">Popular Destinations</h1>
-          <hr />
-        </section>
-      </header>
-    </section>
-  </body>
+  <section class="destination">
+    <div class="destination__header">
+      <div class="destination__header-title">
+        <div class="destination__header-title-line">
+          <h1>Popular Destinations</h1>
+          <hr class="destination__header-title__underline" />
+        </div>
+        <h2>Most popular destinations around the world, from historical places to natural wonders.
+        </h2>
+      </div>
+      <div class="destination_header-arrows">
+        <div class="destination_header-arrow-left">
+          <img src="/icons/chevron-left.svg" alt="chevron left">
+        </div>
+        <div class="destination_header-arrow-right">
+          <img src="/icons/chevron-right.svg" alt="chevron right">
+        </div>
+      </div>
+    </div>
+
+    <div class="destination__content">
+      <div class="destination__content-container">
+        <img class="destination__picture" src="/images/popular-destination-berlin.jpeg" alt="Monument of Berlin">
+        <div class="destination__content-container-text">
+          <h5>Monument of Berlin</h5>
+          <div class="destination__content-container-location">
+            <img src="/icons/location.svg" alt="location symbol">
+            <p>Berlin, Germany</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="destination__content-container destination__content-container__desktop">
+        <div class="destination__content-container-text">
+          <img class="destination__picture" src="/images/popular-destination-london.jpeg" alt="Millennium Bridge">
+          <h5>Millennium Bridge</h5>
+          <div class="destination__content-container-location">
+            <img src="/icons/location.svg" alt="location symbol">
+            <p>London, United Kingdom</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="destination__content-container destination__content-container__desktop">
+        <div class="destination__content-container-text">
+          <img class="destination__picture" src="/images/popular-destination-venice.jpeg" alt="Rialto Bridge">
+          <h5>Rialto Bridge</h5>
+          <div class="destination__content-container-location">
+            <img src="/icons/location.svg" alt="location symbol">
+            <p>Venice, Italy</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="destination__content-container">
+
+      </div>
+    </div>
+    <div class="destination_header-arrows-down">
+      <div class="destination_header-arrow-left-down">
+        <img src="/icons/chevron-left.svg" alt="chevron left">
+      </div>
+      <div class="destination_header-arrow-right-down">
+        <img src="/icons/chevron-right.svg" alt="chevron right">
+      </div>
+  </section>
+</body>
+
 </html>
